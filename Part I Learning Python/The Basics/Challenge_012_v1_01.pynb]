@@ -1,0 +1,30 @@
+# *********************************************************************
+#                                                                     *
+# Program      : Challenge_012_v1_01.py                               *
+# Written by   : George Ternent                                       *
+# Date.        : 20-Nov-2023.                                         *
+#                                                                     *
+# Description : Ask  for  two numbers. If the first number is larger  *
+#               than  the second, display the second number first and *
+#               then  the  first  number,  otherwise  show  the first *
+#               number first and then the second.                     *
+#                                                                     *
+# *********************************************************************
+# History                                                             *
+# *********************************************************************
+#                                                                     *
+# Ref   Changed by        Date         Change(s)                      *
+# ****  ***********       ****         *********                      *
+# 0.01  George Ternent.   20-Nov-2023. Initial Version.               *
+#                                                                     *
+# *********************************************************************
+
+number_1 = input('Enter your first  number :')
+number_2 = input('Enter your second number :')
+
+if number_1 > number_2:
+    print (f'{number_2=}')
+    print (f'{number_1=}')
+else:
+    print (f'{number_1=}')
+    print (f'{number_2=}')
